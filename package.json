@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon dist/app.js",
-    "build":"tsc",
+    "build":"npm run tsc",
     "data:import": "node dist/db/seeder",
     "data:destroy": "node dist/db/seeder -d",
     "tsc": "tsc"
