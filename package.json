@@ -8,7 +8,8 @@
     "start": "nodemon dist/app.js",
     "build":"tsc",
     "data:import": "node dist/db/seeder",
-    "data:destroy": "node dist/db/seeder -d"
+    "data:destroy": "node dist/db/seeder -d",
+    "tsc": "tsc"
   },
   "author": "",
   "license": "ISC",
